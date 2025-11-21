@@ -40,6 +40,39 @@ a {
     display: flex;
     background-color: #1f2937;
     height: 275px;
+    align-items: center;
+    gap: 20px;
+}
+
+.hero-content {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.hero-image {
+    width: 50%
+}
+
+.hero-title {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+}
+
+.hero-text {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.hero-signup {
+    width: 15%;
+    background-color: #3882f6;
+    border-radius: 5px;
+    color: #e5e7eb;
+    border: none;
+    padding: 5px;
 }
 
 .info {
