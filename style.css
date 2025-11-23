@@ -130,11 +130,46 @@ a {
 }
 
 .call {
+    display: flex;
     height: 200px;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    display: flex;
+    background-color: #3882f6;
+    height: 50%;
+    width: 80%;
+    border-radius: 10px;
+    padding: 20px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.call-title {
+    font-weight: 900;
+    font-size: 24px;
+    color: #e5e7eb;
+}
+
+.call-subtitle {
+    color: #e5e7eb;
+}
+
+.signup {
+    background-color: #3882f6;
+    border-color: #e5e7eb;
+    border-radius: 5px;
+    color: #e5e7eb;
+    height: 30%;
 }
 
 .footer {
     display: flex;
     background-color: #1f2937;
     height: 50px;
+    justify-content: center;
+    align-items: center;
+    color: #e5e7eb;
 }
